@@ -1,0 +1,73 @@
+html{
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: lightgray;
+ 
+}
+
+#image{
+    width:500px;
+    display:block;
+}
+
+/*COMPLETE THE CSS BELOW*/
+
+/*Hint: only add one property to .container*/
+.container{
+    display: inline-block;
+    margin: -2px;
+    
+}
+
+.green{
+    background-color: seagreen;
+    width: 124px; 
+    height: 25px;
+}
+
+.blue{
+   background-color: midnightblue;
+    width: 124px; 
+    height: 25px; 
+
+}
+
+.pink{
+    background-color: lightcoral;
+    width: 124px; 
+    height: 25px;
+}
+
+.orange{   
+    background-color: orangered;
+    width: 124px; 
+    height: 25px
+}
+
+.yellow{
+    background-color: goldenrod;
+    width: 124px; 
+    height: 25px
+}
+
+.red{
+  background-color: darkred;
+    width: 124px; 
+    height: 25px  
+}
+
+.dark blue{
+    background-color: midnightblue;
+    width: 124px; 
+    height: 25px
+}
+
+.coral{
+  background-color: orange;
+    width: 124px; 
+    height: 25px  
+}
+
