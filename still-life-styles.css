@@ -1,0 +1,62 @@
+/*RESETS*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/*The code above resets box-sizing & margins and padding on all elements*/
+
+
+/*YOUR CSS CODE GOES BELOW*/
+
+body {
+    background-color: lightgray;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Link design - feel free to change*/
+
+a {
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+.links {
+    margin: 10px;
+    display: inline-block;
+}
