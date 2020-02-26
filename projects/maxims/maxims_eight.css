@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: orange
+}
+
+
+.row {
+    font-family: 'Rubik Mono One', sans-serif;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+
+
+#dan {
+    font-size: 40px;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: white;
+    font-style: oblique;
+    animation-name: dan;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes dan {
+    0% {
+        color: black;
+    }
+    100% {
+        color: black;
+    }
+}

@@ -1,0 +1,116 @@
+body {
+	background: #cccccc;
+}
+
+/* do NOT modify the canvas */
+
+
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background-image: url(../../../assets/imgs/window.gif);
+	position: relative;
+    
+}
+
+/* modify the assets below */
+
+#table {
+	width: 900px;
+	height: 0px;
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+	border-bottom: 200px solid yellow;
+	position: absolute;
+	top: 356px;
+	left: 0px;   
+}
+
+#square {
+	width: 90px;
+	height: 200px;
+	background: midnightblue;
+	top: 180px;
+	left: 350px;
+	position: absolute;
+    border-radius: 10px;
+  box-shadow: 6px 1px 7px #5E5E5E;
+    
+}
+
+#lid {
+	width: 60px;
+	height: 0px;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 40px solid darkgrey;
+	position: absolute;
+	top: 160px;
+	left: 350px; 
+}
+
+
+#trapezoid {
+	width: 250px;
+	height: 0px;
+	border-left: 35px solid transparent;
+	border-right: 0px solid transparent;
+	border-bottom: 106px solid tan; 
+	position: absolute;
+	top: 250px;
+	left: 250px;  
+}
+
+
+.flower {
+	width: 150px;
+	height: 60px;
+	background-image:radial-gradient(circle, #FFE391,#F5799C);
+	top: 60px;
+	left: 400px;
+	position: absolute;
+    border-radius: 50px;
+}
+
+
+.flower::before {
+    content: "";
+	width: 150px;
+	height: 60px;
+	background-image:radial-gradient(circle, #FFE391,#F5799C);
+	top: 0px;
+	left: 0px;
+	position: absolute;
+    border-radius: 50px;
+    display: block;
+    transform: rotate(60deg)   
+}
+
+
+.flower::after {
+    content: "";
+	width: 150px;
+	height: 60px;
+	background-image:radial-gradient(circle, #FFE391,#F5799C);
+	top: 0px;
+	left: 0px;
+	position: absolute;
+    border-radius: 50px;
+    display: block;
+    transform: rotate(-60deg)   
+}
+
+
+#stem{
+   width: 10px;
+	height:200px;
+	background: darkgreen;
+	top: 100px;
+	left: 419px;
+	position: absolute;
+    border-radius: 10px; 
+    transform: rotate(20deg)
+
+}
