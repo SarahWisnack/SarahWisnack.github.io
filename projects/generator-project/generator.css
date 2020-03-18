@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+    margin-top: -100px;
+}
+
+#sarah {
+    color: black;
+    font-size: 10em;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+    text-shadow:
+        -2px -2px 0 #fff,
+        2px -2px 0 #fff,
+        -2px 2px 0 #fff,
+        2px 2px 0 #fff;
+}
+
+.topnav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.topnav a {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #F2133C;
+    color: black;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+
+#hi {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-right: 100px;
+    font-size: 25px;
+    width: 570px;
+}
+
+.biopic {
+    width: 340px;
+    padding-left: 180px;
+}
+
+.item {
+	vertical-align: middle;
+	display: inline-block;
+}
