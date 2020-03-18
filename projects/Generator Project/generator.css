@@ -1,0 +1,19 @@
+body {
+    background-color: red;
+    margin-top: -100px;
+}
+
+#sarah {
+    color: black;
+    font-size: 10em;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+    text-shadow:
+        -2px -2px 0 #fff,
+        2px -2px 0 #fff,
+        -2px 2px 0 #fff,
+        2px 2px 0 #fff;
+}
+
