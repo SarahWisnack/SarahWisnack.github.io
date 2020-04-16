@@ -51,7 +51,7 @@ body {
     display: none;
 }
 
-#hi {
+#bounce {
     color: white;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -61,7 +61,7 @@ body {
     width: 550px;
 }
 
-.biopic {
+.bounce {
     width: 340px;
     padding-left: 200px;
 }
@@ -71,7 +71,7 @@ vertical-align: middle;
 display: inline-block;
 }
 
-#while {
+#safe {
     color: white;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -81,10 +81,11 @@ display: inline-block;
     width: 550px;
 }
 
-.biopictwo {
+.safe {
     width: 340px;
     padding-left: 200px;
 	margin-top: 30px;
+
 }
 
 .itemtwo {
@@ -92,68 +93,67 @@ display: inline-block;
 	display: inline-block;
 }
 
-#email {
-    text-align: center;
+#float {
     color: white;
     font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-right: 100px;
     font-size: 25px;
+    width: 550px;
 }
 
-div.gallery {
-  margin: 5px;
-  border: 4px solid white;
-  float: left;
-  width: 400px;
-  margin-left: 180px;
+.float {
+    width: 340px;
+    padding-left: 200px;
+	margin-top: 30px;
 }
 
-div.gallery:hover {
-  border: 4px solid #F2133C;
+.itemthree {
+   vertical-align: middle;
+	display: inline-block;
 }
 
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: left;
-  color: white;
-font-family: 'Oswald', sans-serif;
-	font-size: 20px; 
-	
-    
-    
-}
-
-ul{
-	display: list-item;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	list-style: inside;
-}
-
-#links{
-	text-align: center;
+#surf {
     color: white;
     font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-	margin-left: 90px;
-	text-decoration-line: none;	
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-right: 100px;
+    font-size: 25px;
+    width: 550px;
 }
 
-#links:hover{
-color: #F2133C;
+.surf {
+    width: 340px;
+    padding-left: 200px;
+	margin-top: 30px;
 }
 
-#quote{
-	text-align: center;
+.itemfour {
+   vertical-align: middle;
+	display: inline-block;
+}
+
+#cover {
     color: white;
     font-family: 'Oswald', sans-serif;
-    font-size: 60px;
-	margin-top: 150px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-right: 100px;
+    font-size: 25px;
+    width: 550px;
+}
+
+.cover {
+    width: 340px;
+    padding-left: 200px;
+	margin-top: 30px;
+}
+
+.itemfive {
+   vertical-align: middle;
+	display: inline-block;
 }
 
 i {
@@ -172,5 +172,3 @@ i {
   -webkit-transform: rotate(45deg);
 	
 }
-
-
