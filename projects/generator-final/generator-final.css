@@ -62,8 +62,15 @@ body {
 }
 
 .bounce {
-    width: 340px;
-    padding-left: 200px;
+	display: block;
+	margin-left: 250px;
+	margin-right: auto;
+    width: 20%;
+   border: 4px solid white;
+}
+
+.bounce:hover{
+	border: 4px solid #F2133C;
 }
 
 .item {
@@ -82,11 +89,18 @@ display: inline-block;
 }
 
 .safe {
-    width: 340px;
-    padding-left: 200px;
-	margin-top: 30px;
-
+    display: block;
+	margin-left: 250px;
+	margin-right: auto;
+	margin-top: 40px;
+    width: 20%;
+   border: 4px solid white;
 }
+
+.safe:hover{
+	border: 4px solid #F2133C;
+}
+
 
 .itemtwo {
    vertical-align: middle;
@@ -104,9 +118,16 @@ display: inline-block;
 }
 
 .float {
-    width: 340px;
-    padding-left: 200px;
-	margin-top: 30px;
+   display: block;
+	margin-left: 250px;
+	margin-right: auto;
+	margin-top: 40px;
+    width: 20%;
+   border: 4px solid white;
+}
+
+.float:hover{
+	border: 4px solid #F2133C;
 }
 
 .itemthree {
@@ -125,11 +146,17 @@ display: inline-block;
 }
 
 .surf {
-    width: 340px;
-    padding-left: 200px;
-	margin-top: 30px;
+	    display: block;
+	margin-left: 250px;
+	margin-right: auto;
+	margin-top: 40px;
+    width: 20%;
+   border: 4px solid white;
 }
 
+.surf:hover {
+	border: 4px solid #F2133C;
+}
 .itemfour {
    vertical-align: middle;
 	display: inline-block;
@@ -146,9 +173,16 @@ display: inline-block;
 }
 
 .cover {
-    width: 340px;
-    padding-left: 200px;
-	margin-top: 30px;
+  display: block;
+	margin-left: 250px;
+	margin-right: auto;
+	margin-top: 40px;
+    width: 20%;
+   border: 4px solid white;
+}
+
+.cover:hover{
+	border: 4px solid #F2133C;
 }
 
 .itemfive {
