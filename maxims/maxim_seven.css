@@ -1,0 +1,63 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: plum;
+}
+
+
+
+.row {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+p {
+    font-size: 2em;
+    color: white;
+     font-family: 'Gochi Hand';
+}
+
+#butterflies {
+    animation-name: expand;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    color: hotpink;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+
+
+@keyframes expand {
+
+    0% {
+        font-size: 2em;
+    }
+
+    100% {
+        font-size: 25em;
+    }
+
+}
+
+@keyframes raise {
+    0% {
+        transform: translateY(0vh);
+        opacity: 1%;
+
+    }
+
+    100% {
+        transform: translateY(0vh);
+        opacity: 0%;
+    }
+}
