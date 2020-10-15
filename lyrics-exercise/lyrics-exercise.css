@@ -1,0 +1,208 @@
+
+body{
+    background-color: #ce0c2d;  
+	border: 2px solid white;
+	border-radius: px;
+	
+}
+
+h1{
+	cursor: none;
+	border: 50px double;
+	background-color: black;
+    color: gold;
+	font-family: 'Anton', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin-top: -5px;
+	letter-spacing: 5px;
+	padding: inherit;
+	z-index: 10px;
+	
+	
+}
+
+#artistname{
+	cursor: grab;
+	border: 5px solid;
+	background-color: white;
+    color: black;
+   font-family: 'Ramabhadra', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -75px;
+	letter-spacing: 2px;
+	padding-top: 1px;
+	z-index: 10px;
+		
+}
+::selection {
+	color: black;
+	background-color: gold;
+}
+
+
+#lineOne{
+    color:white;
+	font-family: 'Ramabhadra', sans-serif;
+    font-size: 25px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	margin-left: 60px;
+	padding-right: 50px;
+	
+}
+
+#lineTwo{
+    color:white;
+	font-family: 'Ramabhadra', sans-serif;
+    font-size: 25px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	margin-left: 60px;
+	padding-right: 50px;
+}
+
+#lineThree{
+    color:white;
+	font-family: 'Ramabhadra', sans-serif;
+    font-size: 25px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	margin-left: 60px;
+	padding-right: 50px;
+}
+
+#lineFour{
+    color:white;
+	font-family: 'Ramabhadra', sans-serif;
+    font-size: 25px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	margin-left: 60px;
+	padding-right: 50px;
+}
+
+#lineFive{
+    color:white;
+	font-family: 'Ramabhadra', sans-serif;
+    font-size: 25px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	margin-left: 60px;
+	padding-right: 50px;
+}
+
+#lineSix{
+    color:white;
+	font-family: 'Ramabhadra', sans-serif;
+    font-size: 25px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	margin-left: 60px;
+	padding-right: 50px;
+}
+
+#lineSeven{
+    color:white;
+	font-family: 'Ramabhadra', sans-serif;
+    font-size: 25px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	margin-left: 60px;
+	padding-right: 50px;
+}
+
+
+#lineEight{
+    color:white;
+	font-family: 'Ramabhadra', sans-serif;
+    font-size: 25px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	margin-left: 60px;
+	padding-right: 50px;
+}
+
+#lineNine{
+    color:white;
+	font-family: 'Ramabhadra', sans-serif;
+    font-size: 25px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	margin-left: 60px;
+	padding-right: 50px;
+}
+
+h1:hover{
+	color: #ce0c2d;
+}
+
+a{
+	color:white;
+	font-family: 'Ramabhadra', sans-serif;
+	text-decoration: none;
+	font-size: 25px;
+	padding-left: 60px;
+}
+
+
+a.visited{
+	color: gold;
+}
+
+a.hover{
+	color: gold;
+}
+
+.topnav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.topnav a {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #F2133C;
+    color: black;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+i {
+  border: solid black;
+  border-width: 0 5px 5px 0;
+   position: fixed;
+	bottom: 80px;
+  right: 70px;
+  padding: 10px;
+	
+
+}
+
+.arrow {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+	
+}
+
